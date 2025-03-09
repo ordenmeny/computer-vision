@@ -3,7 +3,7 @@ import torch
 from ultralytics import YOLO
 
 # Загружаем обученную модель YOLO (можно заменить на свою best.pt)
-model = YOLO("yolov8n.pt")
+model = YOLO("best_by_yolov8s.pt")
 
 # Открываем видеофайл
 cap = cv2.VideoCapture("robotCam_1.avi")

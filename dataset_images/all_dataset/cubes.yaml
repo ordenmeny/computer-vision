@@ -1,0 +1,7 @@
+path: F:\ComputerMagic\dataset_images\all_dataset
+train: F:\ComputerMagic\dataset_images\all_dataset\train\images
+val: F:\ComputerMagic\dataset_images\all_dataset\val\images
+test: F:\ComputerMagic\dataset_images\all_dataset\test\images
+
+nc: 5  # Количество классов (например, "ромашка" и "роза")
+names: ["red_cube", "orange_cude", "green_cube", "blue_cube", "yellow_cube"]  # Названия классов

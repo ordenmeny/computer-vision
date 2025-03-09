@@ -1,4 +1,5 @@
 .idea
 venv/
+.venv/
 robotCam_1.avi
 learning/

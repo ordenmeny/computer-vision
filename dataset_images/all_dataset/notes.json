@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "blue_cube"
+    },
+    {
+      "id": 1,
+      "name": "green_cube"
+    },
+    {
+      "id": 2,
+      "name": "orange_cube"
+    },
+    {
+      "id": 3,
+      "name": "red_cube"
+    },
+    {
+      "id": 4,
+      "name": "yellow_cube"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
