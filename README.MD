@@ -1,3 +1,19 @@
+wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_535.86.10_linux.run
+sudo sh cuda_12.1.1_535.86.10_linux.run
+
+echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+source ~/.bashrc
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+
+pip install ultralytics
+
+
+
+
+
 ### Запуск на локальной машине
 
 #### 1. Клонируйте репозиторий:
